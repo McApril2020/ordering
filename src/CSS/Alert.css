@@ -1,0 +1,60 @@
+.alert-container {
+  position: fixed;  /* Fixes the element's position relative to the viewport */
+  bottom: 30px;     /* Distance from the bottom of the screen */
+  right: 30px;  
+}
+
+.card {
+    width: 330px;
+    height: 80px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+  }
+
+  .message-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+  }
+  .message-text,
+  .sub-text {
+    margin: 0;
+    cursor: default;
+  }
+  .message-text {
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .sub-text {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .alert-button {
+    width: 35px; /* Set the width */
+    height: 35px; /* Set the height */
+    border: 2px solid #00897B; /* Border color */
+    border-radius: 50%; /* Makes it a circle */
+    background-color: transparent; /* Transparent background */
+    color: #00897B; /* Text color */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions */
+    outline: none; /* Remove default outline */
+}
+
+.alert-button:hover {
+    background-color: #00897B; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}

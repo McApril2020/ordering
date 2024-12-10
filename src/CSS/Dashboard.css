@@ -1,0 +1,203 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    top: 0px;
+    background-color: #272626;
+}
+
+.fa-shopping-cart {
+    margin-right: 7px;
+    font-size: 30px;
+    color: white;
+}
+.logo {
+  color: white;
+}
+
+.account-container {
+    display: flex;
+    align-items: center;
+}
+.fa-user-circle {
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+}
+
+/* h3, .my-account {
+    color: white;
+} */
+.my-account {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+.my-account p {
+  color: white;
+  padding: 2px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+/* From Uiverse.io by LightAndy1 */ 
+.group-search {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+    margin-right: 10px;
+  }
+  
+  .input-search {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 35px;
+    padding-left: 2.5rem;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: text;
+    z-index: 0;
+    border: 1px solid white;
+  }
+  
+  .input-searc::placeholder {
+    color: #bdbecb;
+  }
+
+  
+  .input-searc:active {
+    transform: scale(0.95);
+  }
+  
+  
+  .search-icon {
+    position: absolute;
+    left: 1rem;
+    fill: #bdbecb;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    z-index: 1;
+    color: white;
+  }
+
+  .others {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .other-sub {
+    margin-right: 10px;
+    color: white;
+  }
+
+  .category {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 80px;
+    cursor: pointer;
+  }
+
+  
+  /* From Uiverse.io by yashlikescode */ 
+.card-category {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    /* background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100%); */
+    background-color: #6163d3;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    margin: 10px;
+  }
+  
+  .card-category .fa-cart-plus {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    font-size: 50px;
+  }
+  
+  .card-category:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .card-category:hover .card__content {
+    transform: translate(-50%, -50%) rotate(0deg);
+    opacity: 1;
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+  .card-category:hover .fa-cart-plus {
+    scale: 0;
+  }
+  
+  .fa-cart-plus {
+    color: white;
+  }
+
+  .item-container {
+    display: flex;
+    padding: 20px;
+  }
+
+  .login-account {
+    color: white;
+    font-size: 14px;
+  }
+
+  .log-out {
+    margin: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .user-account {
+    font-weight: bold;
+  }
+  
